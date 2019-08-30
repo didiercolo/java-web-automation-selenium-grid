@@ -37,3 +37,12 @@ This projects is a example of how to use Java, Selenium, TestNG and Maven
  - Driver Class: Driver class at `src/test/java/seleniumTests/utilities` allow the tests to be executed at any OS without having to change the code. It autodetects the OS and depending on that returns an instance of the right ChromeDriver
  - `FindAll` method at GoogleResultsPage `line: 28`: It is an advance option provider by PageFactroy API that allow us to group a set of element into the same list so all those can handle as a single list.
  - `Selectors section`: Each POM class has a selector section, the main reason for that is that all the class can use them to locate those especific elements without duplicate code.
+
+
+ #### Selenium Grid Instructions
+ - Using the terminal navigate to scripts folder
+ - Execute `sh start-seleniumGrid.sh`
+ - Using other terminal window execute `sh add-firefox-driver.sh`
+
+ Note:
+ This will work only on MAC OS, Windows instructions comming soon.
