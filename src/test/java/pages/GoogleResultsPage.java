@@ -82,6 +82,6 @@ public class GoogleResultsPage {
 
     public void waitForPageLoad(){
         // Wait for the element
-        this.browser.waitForElement(resultDescriptions);
+        //this.browser.waitForElement(resultDescriptions);
     }
 }

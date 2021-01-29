@@ -11,6 +11,8 @@
     <artifactId>java.selenium.testng</artifactId>
     <version>1.0.0</version>
 
+    maven
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -42,3 +44,11 @@
     </build>
 
 </project>
+
+
+
+
+
+
+
+

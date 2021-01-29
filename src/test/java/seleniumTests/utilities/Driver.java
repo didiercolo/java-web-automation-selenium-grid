@@ -26,7 +26,7 @@ public class Driver {
 
         /** If the tests are executed in MAC OS returns Mac driver */
         if (System.getProperty("os.name").toLowerCase().contains("mac"))
-            System.setProperty("webdriver.chrome.driver", driversPath + "chromedriver-binary");
+            System.setProperty("webdriver.chrome.driver", driversPath + "chromedriver");
 
         /** If the tests are executed in Windows OS returns Mac driver */
         if (System.getProperty("os.name").toLowerCase().contains("win"))

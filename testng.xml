@@ -1,84 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Inteview Test" verbose="2"
     parallel="tests" thread-count="2">
-    <test name="Search at Google using chorme">
-        <parameter name = "testParam" value = "chrome" />
+    <test name="Search at Google">
         <classes>
-            <class name="seleniumTests.SeleniumTest">
-                <methods>
-                    <include name="googleTestResults"/>
-                </methods>
-            </class>
+            <class name="seleniumTests.SeleniumTest"/>
         </classes>
     </test>
-    <test name="Search at Google using firefox">
-        <parameter name = "testParam" value = "firefox" />
-        <classes>
-            <class name="seleniumTests.SeleniumTest">
-                <methods>
-                    <include name="googleTestResults"/>
-                </methods>
-            </class>
-        </classes>
-   </test>
-<!--    <test name="Search at Google using chorme1">-->
-<!--        <parameter name = "testParam" value = "chrome" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Search at Google using firefox1">-->
-<!--        <parameter name = "testParam" value = "firefox" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Search at Google using chorme2">-->
-<!--        <parameter name = "testParam" value = "chrome" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Search at Google using firefox2">-->
-<!--        <parameter name = "testParam" value = "firefox" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Search at Google using chorme3">-->
-<!--        <parameter name = "testParam" value = "chrome" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Search at Google using firefox3">-->
-<!--        <parameter name = "testParam" value = "firefox" />-->
-<!--        <classes>-->
-<!--            <class name="seleniumTests.SeleniumTest">-->
-<!--                <methods>-->
-<!--                    <include name="googleTestResults"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>
