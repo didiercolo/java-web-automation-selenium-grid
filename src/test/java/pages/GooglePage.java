@@ -47,6 +47,7 @@ public class GooglePage {
      */
     public void goToGoogle() {
         this.browser.goTo("http://www.google.com");
+        cy.visit('google')
     }
 
     /**

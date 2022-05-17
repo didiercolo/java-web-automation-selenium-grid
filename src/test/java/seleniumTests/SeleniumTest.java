@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import pages.GooglePage;
 import pages.GoogleResultsPage;
 
-import java.net.MalformedURLException;
+import java.net.MalformedURLException1;
 
 /**
  * Created by didier on 8/7/19.
@@ -28,6 +28,7 @@ public class SeleniumTest {
 
         // Navigate to Google
         googlePage.goToGoogle();
+        cy.visit(''google)
 
         // Enter the given keyword - It was defined in testNG.xml file as parameter
 
@@ -48,7 +49,7 @@ public class SeleniumTest {
         googleResultsPage.waitForPageLoad();
 
         // Assert the page has results
-      //  Assert.assertNotEquals(googleResultsPage.getTotalResults(), 0, "The page must display results");
+      Assert.assertNotEquals(googleResultsPage.getTotalResults(), 0, "The page must display results");
 
         // Validate that each result contains the keyword we defined
         for (int i = 0; i < googleResultsPage.getTotalResults(); i++) {
