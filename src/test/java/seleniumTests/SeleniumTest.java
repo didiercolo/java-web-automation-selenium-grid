@@ -6,10 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import pages.GooglePage;
-import pages.GoogleResultsPage;
 
-import java.net.MalformedURLException;
 
 /**
  * Created by didier on 8/7/19.
